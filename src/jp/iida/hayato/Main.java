@@ -45,6 +45,8 @@ public class Main {
         if (j == 0) {
           playerList.add(new RoleAssigner()); //ここで作成したエージェントを指定
         } else {
+          //playerList.add(new RoleAssigner());
+          //playerList.add(new RoleAssigner());
           playerList.add(new SampleRoleAssignPlayer());
         }
       }
